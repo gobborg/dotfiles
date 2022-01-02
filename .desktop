@@ -1,0 +1,9 @@
+#!/bin/bash
+
+[Desktop Entry]
+Name=xmodmap
+Comment=Apply Xmodmap
+Exec=bash -c "xmodmap $HOME/.Xmodmap"
+Icon=system-run
+Terminal=false
+Type=Application
