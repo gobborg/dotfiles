@@ -1,0 +1,16 @@
+[user]
+	name = gobborg
+	email = kotatsugoblin@gmail.com
+[init]
+	templateDir = /home/gobborg/.git-template
+[merge]
+	tool = vimdiff
+
+[core]
+	editor = /usr/local/bin/vim
+	excludesfile = /home/gobborg/.gitignore
+
+[alias]
+	aa = add --all
+	st = status
+	br = branch
