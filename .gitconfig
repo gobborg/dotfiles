@@ -14,3 +14,4 @@
 	aa = add --all
 	st = status
 	br = branch
+	cm = commit -m
