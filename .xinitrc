@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# right now, this doesn't actually do anything.
 
 #read ~/Xmodmap if it exists
 if [[ -f "${HOME}/.Xmodmap" ]]; then
