@@ -3,6 +3,7 @@
 	email = kotatsugoblin@gmail.com
 [init]
 	templateDir = /home/gobborg/.git-template
+	defaultBranch = main
 [merge]
 	tool = vimdiff
 
@@ -15,3 +16,5 @@
 	st = status
 	br = branch
 	cm = commit -m
+[color]
+	ui = auto
