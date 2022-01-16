@@ -1,5 +1,6 @@
 alias open='xdg-open'
-alias py='/usr/bin/python3.9'
+alias py='/usr/bin/python' # for arch
+#alias py='/usr/bin/python3.9' # for macos
 alias vi='/usr/bin/vim'
 alias wget='wget -c' # continue downloading if paused
 alias tmux="TERM=screen-256color-bce tmux"
