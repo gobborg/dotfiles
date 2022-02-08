@@ -2,7 +2,7 @@
 	name = gobborg
 	email = kotatsugoblin@gmail.com
 [init]
-	templateDir = /home/gobborg/.git-template
+	templatedir = /home/gobborg/.git-template
 	defaultBranch = main
 [merge]
 	tool = vimdiff
