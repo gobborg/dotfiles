@@ -1,6 +1,7 @@
 ! -*- coding: utf-8 -*-
 ! use the `xev` program to interactively find keycodes
-
+! use `xmodmap -pke` to print current keymap
+ 
 ! 2021-12-31
 ! remap pgup and pgdwn to left and right, respectively
 
