@@ -1,0 +1,37 @@
+! -*- coding: utf-8 -*-
+! use the `xev` program to interactively find keycodes
+! use `xmodmap -pke` to print current keymap
+ 
+! 2021-12-31
+! remap pgup and pgdwn to left and right, respectively
+
+! 2021-08-31
+! swap Ctrl and Alt keys
+
+! here's the default setting on special keys
+!  xmodmap -pke | grep -P '(Control|Super|Alt|Menu)'
+
+! keycode  37 = Control_L NoSymbol Control_L
+! keycode  64 = Alt_L Meta_L Alt_L Meta_L
+! keycode 105 = Control_R NoSymbol Control_R
+! keycode 108 = Alt_R Meta_R Alt_R Meta_R
+! keycode 133 = Super_L NoSymbol Super_L
+! keycode 134 = Super_R NoSymbol Super_R
+! keycode 135 = Menu NoSymbol Menu
+! keycode 147 = XF86MenuKB NoSymbol XF86MenuKB
+! keycode 204 = NoSymbol Alt_L NoSymbol Alt_L
+! keycode 206 = NoSymbol Super_L NoSymbol Super_L
+
+clear control
+clear mod1
+keycode 37 = Alt_L Meta_L
+keycode 105 = Alt_R Meta_R
+keycode 64 = Control_L
+keycode 108 = Control_R
+keycode 112 = Left
+keycode 117 = Right
+keycode 110 = XF86AudioPlay XF86AudioPause 
+keycode 96 = XF86AudioPrev 
+keycode 115 = XF86AudioNext
+add control = Control_L Control_R
+add mod1 = Alt_L Meta_L

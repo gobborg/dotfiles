@@ -1,1 +1,0 @@
-/home/gobborg/.bash_profile
