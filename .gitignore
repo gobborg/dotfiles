@@ -1,1 +1,4 @@
-/home/gobborg/.gitignore
+*history
+*.aux
+*.log
+*.swp
