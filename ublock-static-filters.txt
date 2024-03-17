@@ -1,0 +1,3 @@
+youtube.com##.opened
+youtube.com##.style-scope.ytd-popup-container
+
