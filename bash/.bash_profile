@@ -29,4 +29,4 @@ if test -z "${XDG_RUNTIME_DIR}"; then
   fi
 fi
 
-eval "$(dircolors .dir_colors)"
+eval "$(dircolors ~/.dir_colors)"
